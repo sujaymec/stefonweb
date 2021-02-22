@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Helper classes */
+.container{
+    width: 1200px;
+    margin: auto
+}
+
+/* Main styles */
+
+body{
+    position: relative;
+}
+
+#landing{
+    background: url('../images/backgroud_plant_resized.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+#landing h1{
+    margin-top: 450px;
+    color: #717169;
+    color: #b95716;
+    font-family: 'rowdies';
+    font-size: 58px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#landing ul{
+    list-style: none;
+    display: flex;
+    width: 480px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-family: 'open sans';
+    font-weight: bold;
+    font-size: 20px;
+    color: #717169;
+    color: #060f00;
+}
+#landing ul li{
+    cursor: pointer;
+}
+
+#sm-icons {
+    position: fixed;
+    bottom: 35px;
+    right: 45px;
+}
+
+#sm-icons ul{
+    display: flex;
+    list-style: none;
+}
+#sm-icons ul li{
+    height: 25px;
+    width: 25px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#sm-icons ul li a{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1024px){
+    .container{
+        width: auto;
+    }
+
+    #landing h1{
+        font-size: 36px;
+    }
+
+    #landing ul{
+        width: 300px;
+        font-size: 14px;
+    }
+}

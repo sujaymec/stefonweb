@@ -16,7 +16,7 @@ body{
 }
 
 #landing{
-    background: url('../images/backgroud_plant_resized.jpg') no-repeat center;
+    background: url('../images/backgroud_plant_resized_lowres.jpg') no-repeat center;
     background-size: cover;
     padding-top: 1px;
 }

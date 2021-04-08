@@ -40,7 +40,7 @@ body{
     margin-top: 25px;
     font-family: 'open sans';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     color: #717169;
     color: #060f00;
 }
@@ -51,7 +51,7 @@ body{
 #sm-icons {
     position: fixed;
     bottom: 35px;
-    right: 45px;
+    right: 35px;
 }
 
 #sm-icons ul{
@@ -86,6 +86,6 @@ body{
 
     #landing ul{
         width: 300px;
-        font-size: 14px;
+        font-size: 11px;
     }
 }

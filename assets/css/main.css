@@ -11,12 +11,16 @@
 
 /* Main styles */
 
+html, body {
+    height: 100%;
+}
+
 body{
     position: relative;
+    background: url('../images/background_image.png') no-repeat center;
 }
 
 #landing{
-    background: url('../images/backgroud_plant_resized_lowres.jpg') no-repeat center;
     background-size: cover;
     padding-top: 1px;
 }

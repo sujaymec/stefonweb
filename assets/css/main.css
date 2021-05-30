@@ -13,6 +13,7 @@
 
 html, body {
     height: 100%;
+    font-family: 'open sans';
 }
 
 body{
@@ -20,7 +21,7 @@ body{
     background: url('../images/background_image.png') no-repeat center;
 }
 
-#landing{
+/* #landing{
     background-size: cover;
     padding-top: 1px;
 }
@@ -50,12 +51,49 @@ body{
 }
 #landing ul li{
     cursor: pointer;
+} */
+
+/* New code */
+
+#verticals{
+    margin-top: 200px;
 }
 
+#verticals div{
+    position: relative;
+    width: 25%;
+    height: 200px;
+    padding: 25px 25px;
+    background-color: #FFEBD0;
+    border: 2px solid black;
+}
+
+#verticals div h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#verticals div p{
+    height: 140px;
+}
+
+#verticals div button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #0B5B47;
+    bottom: 0px;
+    margin: auto;
+    border: none;
+}
+
+/*  */
+
 #sm-icons {
-    position: fixed;
-    bottom: 35px;
-    right: 35px;
+    display: none;
 }
 
 #sm-icons ul{

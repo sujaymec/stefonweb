@@ -57,15 +57,18 @@ body{
 
 #verticals{
     margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #verticals div{
     position: relative;
     width: 25%;
-    height: 200px;
+    height: 330px;
     padding: 25px 25px;
     background-color: #FFEBD0;
-    border: 2px solid black;
+    border: 2px solid #CA7402;
+    border-radius: 5px;
 }
 
 #verticals div h3{
@@ -73,22 +76,31 @@ body{
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 #verticals div p{
-    height: 140px;
+    height: 230px; /* Hard coded */
 }
 
 #verticals div button{
     position: relative;
     width: 100%;
-    height: 40px;
+    font-size: 20px;
+    line-height: 50px;
     color: #fff;
     background-color: #0B5B47;
-    bottom: 0px;
-    margin: auto;
     border: none;
+    font-family: 'Open Sans';
 }
+
+.coming-soon {
+    background: url(../images/coming-soon.png) no-repeat center;
+    background-size: 200px;
+}
+
+.coming-soon p, .coming-soon button {display: none;}
 
 /*  */
 

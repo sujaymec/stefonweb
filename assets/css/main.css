@@ -21,6 +21,10 @@ body{
     background: url('../images/background_image.png') no-repeat center;
 }
 
+nav > div, nav ul{display: flex;}
+nav > div {justify-content: space-between;}
+nav ul li{list-style-type: none; line-height: 70px;margin-left: 45px; font-weight: bold;}
+
 /* #landing{
     background-size: cover;
     padding-top: 1px;
@@ -74,14 +78,17 @@ body{
 #verticals div h3{
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 25px;
     margin-bottom: 25px;
     text-transform: uppercase;
+    color: #735125;
 }
 
 #verticals div p{
     height: 230px; /* Hard coded */
+    font-style: italic;
+    line-height: 28px;
 }
 
 #verticals div button{
@@ -93,6 +100,7 @@ body{
     background-color: #0B5B47;
     border: none;
     font-family: 'Open Sans';
+    cursor: pointer;
 }
 
 .coming-soon {
@@ -125,6 +133,9 @@ body{
     width: 100%;
     display: block;
 }
+
+footer{position: fixed; bottom: 0px; left: 0px; right: 0px}
+footer div{line-height: 50px; font-size: 14px; font-weight: bold; color:#94590b}
 
 
 /* Responsive */

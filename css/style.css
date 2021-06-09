@@ -2112,12 +2112,12 @@ a:focus {
     width: 25px;
 }
 
-.footer .footer-social {
+.footer .footer-s {
     position: relative;
     margin-top: 20px;
 }
 
-.footer .footer-social a {
+.footer .footer-s a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -2128,17 +2128,17 @@ a:focus {
     transition: .3s;
 }
 
-.footer .footer-social a i {
+.footer .footer-s a i {
     font-size: 15px;
     color: #ffffff;
 }
 
-.footer .footer-social a:hover {
+.footer .footer-s a:hover {
     background: #fdbe33;
     border-color: #fdbe33;
 }
 
-.footer .footer-social a:hover i {
+.footer .footer-s a:hover i {
     color: #030f27;
 }
 
